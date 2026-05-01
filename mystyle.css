@@ -100,7 +100,7 @@ li a {
     background-color: #fdf5f2;
 }
 
-/* Style the Text Side (Left) */
+
 .hero-text {
     flex: 1;
     padding: 60px;
@@ -182,7 +182,7 @@ body {
     text-align: center;
 }
 
-/* Professional Table Styling */
+
 .price-table {
     width: 100%;
     max-width: 600px;

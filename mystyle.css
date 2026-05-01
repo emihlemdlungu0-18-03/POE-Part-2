@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    background-color:rgb(255, 192, 221);
+    text-align: center; 
+    padding: 10px 0;
+}
+
+
+li {
+    display: inline-block; 
+    margin: 0 20px; 
+}
+
+
+li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.gallery-container {
+    column-count: 3;
+    column-gap: 10px; 
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-container img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.gallery-container img:hover {
+    transform: scale(1.02);
+    z-index: 1;
+}
+
+
+@media (max-width: 800px) {
+    .gallery-container {
+        column-count: 2;
+    }
+}
+
+
+nav {
+    background: color #fdf5f2; 
+    text-align: center; 
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    display: inline-block; 
+    margin: 0 20px; 
+}
+
+
+li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+/* Create the Split Screen */
+.hero-container {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    background-color: #fdf5f2;
+}
+
+/* Style the Text Side (Left) */
+.hero-text {
+    flex: 1;
+    padding: 60px;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.hero-image-box {
+    flex: 1;
+    height: 100%;
+    background-image: url('images/beauty.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.glam-button {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #d7a49a;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+main {
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 3.5rem;
+    color: #d7a49a; 
+    margin-bottom: 20px;
+}
+
+
+body {
+    background-color: #fdf5f2;
+    margin: 0;
+}
+
+
+.about-image {
+    display: block;
+    margin: 40px auto;
+    width: 300px;
+    border: 10px solid white;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Centering the entire services section */
+.services-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Professional Table Styling */
+.price-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.price-table th, .price-table td {
+    padding: 15px;
+    border: 1px solid #eee;
+}
+
+.price-table th {
+    background-color: lavenderblush;
+    color: #444;
+}
